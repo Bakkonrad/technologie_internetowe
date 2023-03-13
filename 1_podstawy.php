@@ -5,7 +5,7 @@
     echo 'Imię i nazwisko: $firstName $lastName<br>';
 
 //heredoc
-    echo <<< DATA 
+    echo <<< DATA
         Imię: $firstName<br>
         Nazwisko: $lastName<br>
     DATA;
@@ -20,7 +20,7 @@
     echo <<< 'DATA'
         Imię: $firstName<br>
         Nazwisko: $lastName<br>
-    DATA;
+    DATA; 
 
 $bin = 0b1011;
 echo $bin; //11
@@ -30,7 +30,5 @@ echo $oct; //9
 
 $hex = 0xA1;
 echo $hex; //161
-
-
 
 ?>
